@@ -1,6 +1,6 @@
 from socket  import *
 from constCS import * #-
-from pickle
+import pickle
 
 s = socket(AF_INET, SOCK_STREAM)
 s.connect((HOST, PORT)) # connect to server (block until accepted)
