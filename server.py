@@ -14,6 +14,5 @@ while True:                # forever
     result = data[1][0] + data[1][1]
   elif data[0] == 'subtract':
       result = data[1][0] - data[1][1]
-  print(bytes.decode(result))
   conn.send(pickle.dumps(result)) # return sent data plus an "*"
 conn.close()               # close the connection
