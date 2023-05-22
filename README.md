@@ -3,4 +3,4 @@
 Starter code for the basic client-server assignment
 
 
-O servidor recebe informações do tipo ("add",(x,y)), ("subtract",(x,y)), ("multiply",(x,y)), ("divide",(x,y)) e devolve o resultado respectivo para o cliente.
+O servidor recebe informações do tipo ("add",(x,y)), ("subtract",(x,y)), ("multiply",(x,y)), ("divide",(x,y)) e devolve o resultado da respectiva operação para o cliente.
